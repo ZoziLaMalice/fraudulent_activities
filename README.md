@@ -1,40 +1,31 @@
-# Projet
+# Fraudulent Activities
 
-## Fraudulent Activities
+## Project Description
 
-### OBJECTIF
+### Goal
 
-Les sites de E-commerce font transiter beaucoup d'argent. Cela peut engendrer des risques non négligeables d'activités frauduleuses, comme l'utilisation de carte de crédit volées, du blanchiment d'argent, etc.
+E-commerce sites transfer a lot of money. This can lead to significant risks of fraudulent activities, such as the use of stolen credit cards, money laundering, etc.</br>
 
-Fort heureusement, le Machine Learning peut nous aider à identifier ces activités frauduleuses. Tous les sites web où vous devez entrer vos informations de paiements ont une équipe qui s'occupe de gérer les risques de fraude via le ML.
+Fortunately, Machine Learning can help us identify these fraudulent activities. All of the websites where you enter your payment information have a team that manages the risk of fraud through ML.</br>
 
-Le but de ce challenge est de construire un modèle qui vous permet de prédire une probabilité de transaction frauduleuse.
+The goal of this challenge is to build a model that allows you to predict the probability of a fraudulent transaction.</br>
 
-### DESCRIPTION
+### Description
 
-L'entreprise X fait du E-commerce et vend des vêtements faits-main. Votre but est de construire un modèle qui permette de prédire si l'achat d'un vêtement doit être considéré comme une transaction frauduleuse ou non.
+Company X does E-commerce and sells handmade clothing. Your goal is to build a model that can predict whether buying a piece of clothing should be considered a fraudulent transaction or not.</br>
 
-Voici précisément ce que vous devez faire :
+Here's exactly what you need to do:
 
-1. Pour chacun des utilisateurs, déterminez le pays d'origine depuis son adresse IP
+1. For each user, determine the country of origin from their IP address
 
-2. Construisez un modèle qui permette de prédire si l'activité est frauduleuse ou non. Expliquez aussi vos choix / hypothèses en termes d'optimisation de faux-positifs et faux-négatifs
+2. Build a model that can predict whether the activity is fraudulent or not. Also explain your choices / assumptions in terms of optimizing false positives and false negatives
 
-3. Votre patron aimerait comprendre votre modèle car il est inquiet d'utiliser un modèle _black box_. Comment l'expliqueriez vous d'un point utilisateur, et non pas mathématique. Par exemple, quels sont les utilisateurs qui peuvent être classés comme _risqués_ ?
+3. Your boss would like to understand your model because he is worried about using a _black box_ model. How would you explain it from a user point, not mathematical. For example, which users can be classified as _risked_?
 
-4. Supposons que vous pouvez utiliser votre modèle en live pour qu'il fasse sa prédiction en temps réel. D'un point de vue Produit, comment l'utiliseriez-vous ? Comment pourriez-vous penser l'expérience utilisateur face à ce produit ?
+4. Suppose you can use your model live to make its prediction in real time. From a Product perspective, how would you use it? How could you think of the user experience with this product?
 
+### Percentage of Fraud inside Countries - 2015
 
-### DATA
-
-Vous pouvez utiliser les deux tables suivantes :
-
-```python
-Fraud_Data
-```
-
-&
-
-```python
-IpAddress_to_Country
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ZoziLaMalice/fraudulent_activities/master/percentage-of-fraud-inside-the-country-2015.png">
+<p/>
